@@ -1,0 +1,13 @@
+.tableonglets span.ongletcont {
+  display: none;
+}
+.tableonglets input {
+  display: none;
+}
+.tableonglets input:checked + span.ongletcont {
+  display: block;
+}
+.tableonglets img {
+  max-height: 450px;
+  max-width: 550px;
+}
